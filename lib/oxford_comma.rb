@@ -5,7 +5,7 @@ def oxford_comma(strings)
   split_joined_strings = joined_strings.split(",")
   last_element = split_joined_strings.pop
   last_element = "and #{last_element}"
-  split_joined_strings.push(last_element)
+  split_joined_strings.push(last_element).inspect
 end
 
 
