@@ -1,4 +1,4 @@
-list_array_1 = ["one"
+list_array_1 = ["one"]
 list_array_2 = ["one","two"]
 list_array_3 = ["one","two","three"]
 list_array_4 = ["one","two","three", "four"]
