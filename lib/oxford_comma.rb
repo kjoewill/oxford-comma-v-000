@@ -18,3 +18,6 @@ end
 
 
 puts oxford_comma(list_array_1)
+puts oxford_comma(list_array_2)
+puts oxford_comma(list_array_3)
+puts oxford_comma(list_array_4)
