@@ -5,17 +5,15 @@ list_array_4 = ["one","two","three", "four"]
 
 def oxford_comma(strings)
   
-  return strings[0] if strings.size == 1 
-  
-  return "#{strings[0]} and #{strings[1]}" if strings.size == 2 
-
-    
-  
-  last_element = strings.pop
-  strings.push("and #{last_element}")
-  strings.join(", ")
-  
-  
+  if strings.size == 1 
+    return strings[0] 
+  elsif strings.size == 2 
+    return "#{strings[0]} and #{strings[1]}"
+  else
+    last_element = strings.pop
+    strings.push("and #{last_element}")
+    strings.join(", ")
+  end
   #joined_strings = strings.join(",").inspect
  
   
