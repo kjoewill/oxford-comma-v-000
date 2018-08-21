@@ -14,9 +14,6 @@ def oxford_comma(strings)
     strings.push("and #{last_element}")
     strings.join(", ")
   end
-  #joined_strings = strings.join(",").inspect
- 
-  
   
 end
 
