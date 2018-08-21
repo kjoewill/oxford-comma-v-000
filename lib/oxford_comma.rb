@@ -1,7 +1,7 @@
 list_array = ["fiddleheads","okra","kohlrabi"]
 
 def oxford_comma(strings)
-  strings.join(", ")
+  joined_strings = strings.join(", ")
 end
 
 
