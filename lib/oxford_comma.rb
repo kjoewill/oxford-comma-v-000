@@ -10,7 +10,7 @@ def oxford_comma(strings)
   
   last_element = strings.pop
   strings.push("and #{last_element}")
-  strings.join(", ").inspect
+  strings.join(", ")
   
   
   #joined_strings = strings.join(",").inspect
@@ -20,7 +20,7 @@ def oxford_comma(strings)
 end
 
 
-puts oxford_comma(list_array_1)
-puts oxford_comma(list_array_2)
-puts oxford_comma(list_array_3)
-puts oxford_comma(list_array_4)
+puts oxford_comma(list_array_1).inspect
+puts oxford_comma(list_array_2).inspect
+puts oxford_comma(list_array_3).inspect
+puts oxford_comma(list_array_4).inspect
