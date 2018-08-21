@@ -2,7 +2,7 @@ list_array = ["fiddleheads","okra","kohlrabi"]
 
 def oxford_comma(strings)
   
-  strings[strings.last] = "and #{strings.last}"
+  strings[#{strings.last}] = "and #{strings.last}"
   strings.inspect
   
   
