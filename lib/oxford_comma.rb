@@ -1,7 +1,7 @@
 list_array = ["fiddleheads","okra","kohlrabi"]
 
-def oxford_comma(array)
-  list_array.inspect
+def oxford_comma(strings)
+  strings.inspect
 end
 
 
