@@ -6,6 +6,9 @@ list_array_4 = ["one","two","three", "four"]
 def oxford_comma(strings)
   
   return strings[0] if strings.size == 1 
+  
+  return "#{strings[0]} and #{strings[1]} if strings.size == 2 
+
     
   
   last_element = strings.pop
