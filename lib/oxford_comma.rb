@@ -7,7 +7,7 @@ def oxford_comma(strings)
   
   return strings[0] if strings.size == 1 
   
-  return "#{strings[0]} and #{strings[1]} if strings.size == 2 
+  return "#{strings[0]} and #{strings[1]}" if strings.size == 2 
 
     
   
