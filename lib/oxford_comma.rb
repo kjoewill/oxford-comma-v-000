@@ -5,6 +5,9 @@ list_array_4 = ["one","two","three", "four"]
 
 def oxford_comma(strings)
   
+  return string if strings.size == 1 
+    
+  
   last_element = strings.pop
   strings.push("and #{last_element}")
   strings.join(", ").inspect
