@@ -1,7 +1,7 @@
-list_array_1 = ["fiddleheads","okra","kohlrabi"]
-list_array_2 = ["fiddleheads","okra","kohlrabi"]
-list_array_3 = ["fiddleheads","okra","kohlrabi"]
-list_array_4 = ["fiddleheads","okra","kohlrabi"]
+list_array_1 = ["one"
+list_array_2 = ["one","two"]
+list_array_3 = ["one","two","three"]
+list_array_4 = ["one","two","three", "four"]
 
 def oxford_comma(strings)
   
@@ -17,4 +17,4 @@ def oxford_comma(strings)
 end
 
 
-puts oxford_comma(list_array)
+puts oxford_comma(list_array_1)
